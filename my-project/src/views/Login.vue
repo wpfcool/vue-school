@@ -58,12 +58,9 @@
             </template>
           </van-field>
 
-          <van-button round
-                      block
-                      type="info"
-                      native-type="submit">
-            提交
-          </van-button>
+          <van-button class="submit"
+                      type="info">验证</van-button>
+
         </van-form>
       </div>
 
@@ -188,5 +185,16 @@ export default {
   color: blue;
   background: none;
   border: none;
+}
+
+.submit {
+  /* width: auto; */
+  padding: 5px;
+  color: white;
+  background: blue;
+  border: none;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
 }
 </style>
